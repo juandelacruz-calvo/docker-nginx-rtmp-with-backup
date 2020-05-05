@@ -1,4 +1,4 @@
-# docker-nginx-rtmp
+# docker-nginx-rtmp-with-backup
 
 This image has been partially based on the work of:
 
@@ -7,7 +7,7 @@ This image has been partially based on the work of:
 
 
 A Dockerfile installing NGINX, nginx-rtmp-module and FFmpeg from source with
-default settings for HLS live streaming. Built on Alpine Linux.
+default settings for HLS live streaming with automatic backup switching. Built on Alpine Linux.
 
 * Nginx 1.17.1 (Stable version compiled from source)
 * nginx-rtmp-module 1.2.1 (compiled from source)
